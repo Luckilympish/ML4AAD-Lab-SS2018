@@ -1,0 +1,10 @@
+# Lab Course ML4AAD
+
+Authors:
+- Gresa Shala
+- Youssef El Hassani
+- Jan Reisacher
+
+Run:
+Run via jupyter notebook. In doubt as admin via:
+sudo -H jupyter notebook --allow-root

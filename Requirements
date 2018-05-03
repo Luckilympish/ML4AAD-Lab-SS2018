@@ -1,0 +1,10 @@
+Requires:
+- Python 3.5 or newer
+- numpy
+- scipy
+- pyplot
+- pyrfr
+- Cython
+- swig
+- SMAC
+- jupyter notebook
