@@ -1,0 +1,12 @@
+argparse
+numpy
+scipy
+sklearn
+nose
+matplotlib
+seaborn
+pandas
+liac-arff
+ConfigSpace
+
+# add your requirements below this line

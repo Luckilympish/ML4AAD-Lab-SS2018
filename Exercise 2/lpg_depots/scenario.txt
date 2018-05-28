@@ -1,0 +1,11 @@
+algo = python -u ./lpg/wrapper.py --mem-limit 3072 --script ./lpg/wrapper.py 
+paramfile = ./lpg/params.pcs
+execdir = .
+deterministic = 0
+run_obj = runtime
+overall_obj = PAR10
+cutoff_time = 100
+wallclock-limit = 14400
+instance_file = training.txt
+test_instance_file = test.txt
+feature_file = features.csv
