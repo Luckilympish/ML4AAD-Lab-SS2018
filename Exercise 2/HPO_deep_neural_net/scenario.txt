@@ -1,4 +1,4 @@
-algo = python -u ./dn_net/wrapper.py --mem-limit 3072 --script ./dn_net/wrapper.py 
+algo = python -u ./dn_net/KerasWrapper.py --mem-limit 3072 --script ./dn_net/KerasWrapper.py 
 paramfile = ./dn_net/params.pcs
 execdir = .
 deterministic = 0
