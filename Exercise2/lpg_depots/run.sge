@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# BASH Shell
+#$ -S /bin/bash 
+# Output files (stdout and stderr)
+#$ -o /home/shalag/lab_ml4aad/test.stdout -e /home/shalag/lab_ml4aad/test.stderr 
+# Execute  the  job  from  the  current  working  directory 
+#$ -cwd
+# send no mail for events (e.g., start or end of job)
+#$ -m n
+# Array Job with 4 subjobs
+#$ -t 1-4
+
+python3 ../../../.local/bin/smac --scenario scenario.txt --verbose DEBUG
+
+# use the commands below to submit jobs
+# Single Sequential job or array Job
+# $ qlab test_lab.sge
+# Job with parallel resources (here with 4 CPU cores):
+# qlab_pe test_lab.sge 4 
+
+# More information at: https://aadwiki.informatik.uni-freiburg.de/Cluster#preview --> META cluster
+
+# ssh aadlogin.informatik.uni-freiburg.de
+# ssh metasub2.rz.ki.privat
+

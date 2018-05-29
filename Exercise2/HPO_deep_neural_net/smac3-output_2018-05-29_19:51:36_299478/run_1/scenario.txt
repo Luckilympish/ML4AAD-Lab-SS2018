@@ -1,0 +1,15 @@
+always_race_default = False
+ta_run_limit = 5.0
+pcs_fn = smac3-output_2018-05-29_19:51:36_299478/run_1/params.pcs
+deterministic = False
+cost_for_crash = 2147483647.0
+run_obj = quality
+initial_incumbent = DEFAULT
+test_inst_fn = smac3-output_2018-05-29_19:51:36_299478/run_1/test.txt
+overall_obj = PAR10
+execdir = .
+ta = python -u ./dn_net/KerasWrapper.py --mem-limit 3072
+par_factor = 10
+wallclock_limit = 172800.0
+algo_runs_timelimit = inf
+train_inst_fn = smac3-output_2018-05-29_19:51:36_299478/run_1/training.txt

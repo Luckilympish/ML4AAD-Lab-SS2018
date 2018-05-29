@@ -1,0 +1,82 @@
+{
+  "configs": {
+    "1": {
+      "fast_best_action_evaluation": "0",
+      "dynoiseTabLen": 1.2,
+      "cri_update_iterations": 0,
+      "mutex_and_additive_effects": "1",
+      "cri_insertion_add_mutex": "0",
+      "inst_with_contraddicting_objects": "0",
+      "no_mutex_with_additive_effects": "0",
+      "relaxed_neighborhood_evaluation": "0",
+      "twalkplan": "0",
+      "cri_intermediate_levels": "1",
+      "initializeichoice": "0",
+      "evaluate_mutex_for_action_remotion": "0",
+      "tabu_fct": "1",
+      "choose_min_numA_fact": "1",
+      "relaxed_examination": "0",
+      "lagrange": "0",
+      "avoid_best_action_cycles": "0",
+      "nonuniform_random": "0",
+      "triomemory": "0",
+      "h": "6",
+      "dynoisecoefnum": 1.5,
+      "inc_re": 1.16,
+      "numrestart": "9",
+      "reset_extended_unsupported_facts": "0",
+      "inst_duplicate_param": "0",
+      "ri_list": "0",
+      "improve_reachability": "0",
+      "extended_effects_evaluation": "0",
+      "no_cut": "0",
+      "extended_unsupported_goals": "0",
+      "not_supported_preconds_evaluation": "1",
+      "weight_mutex_in_relaxed_plan": 1.0,
+      "walkplan": "0",
+      "evaluate_threated_supported_preconds_of_neighb_action": "0",
+      "no_insert_threated_act_in_neighb": "1",
+      "tabu_act": "1",
+      "static_noise": "0",
+      "criprecond": "6",
+      "noise_incr": 1.25,
+      "noise": 0.1,
+      "evaluation_function": "1",
+      "zero_num_A": "0",
+      "not_extended_unsupported_facts": "1",
+      "no_pruning": "0",
+      "bestfirst": "1",
+      "numtry": 500,
+      "maxnoise": 60,
+      "vicinato": "4",
+      "verifyinit": "0",
+      "tabu_length": 5,
+      "donot_try_suspected_actions": "1",
+      "remove_act_next_step": "0",
+      "verifyAf": "0",
+      "stop_remove_act": "0"
+    }
+  },
+  "config_origins": {
+    "1": "Default"
+  },
+  "data": [
+    [
+      [
+        1,
+        "instances/train/training-B-20-85.pddl",
+        630311759
+      ],
+      [
+        1000,
+        0.2,
+        {
+          "__enum__": "StatusType.CRASHED"
+        },
+        {
+          "additional_info": "Problem with run. Exit code was 1.; Preserving runsolver output at /tmp/383417.1.lab_course.q/watcher-607395-konJKW.log - preserving target algorithm output at /tmp/383417.1.lab_course.q/solver-607395-S7K1i4.log"
+        }
+      ]
+    ]
+  ]
+}

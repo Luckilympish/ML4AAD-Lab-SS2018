@@ -1,0 +1,82 @@
+{
+  "config_origins": {
+    "1": "Default"
+  },
+  "data": [
+    [
+      [
+        1,
+        "instances/train/training-B-20-85.pddl",
+        630311759
+      ],
+      [
+        1000,
+        0.2,
+        {
+          "__enum__": "StatusType.CRASHED"
+        },
+        {
+          "additional_info": "Problem with run. Exit code was 1.; Preserving runsolver output at /tmp/383417.4.lab_course.q/watcher-872122-MqJUEA.log - preserving target algorithm output at /tmp/383417.4.lab_course.q/solver-872122-M3wKuF.log"
+        }
+      ]
+    ]
+  ],
+  "configs": {
+    "1": {
+      "twalkplan": "0",
+      "static_noise": "0",
+      "avoid_best_action_cycles": "0",
+      "dynoiseTabLen": 1.2,
+      "noise_incr": 1.25,
+      "maxnoise": 60,
+      "extended_unsupported_goals": "0",
+      "donot_try_suspected_actions": "1",
+      "tabu_act": "1",
+      "tabu_length": 5,
+      "weight_mutex_in_relaxed_plan": 1.0,
+      "relaxed_examination": "0",
+      "evaluation_function": "1",
+      "dynoisecoefnum": 1.5,
+      "inc_re": 1.16,
+      "vicinato": "4",
+      "not_extended_unsupported_facts": "1",
+      "extended_effects_evaluation": "0",
+      "stop_remove_act": "0",
+      "bestfirst": "1",
+      "evaluate_threated_supported_preconds_of_neighb_action": "0",
+      "tabu_fct": "1",
+      "fast_best_action_evaluation": "0",
+      "no_mutex_with_additive_effects": "0",
+      "inst_with_contraddicting_objects": "0",
+      "noise": 0.1,
+      "triomemory": "0",
+      "no_pruning": "0",
+      "inst_duplicate_param": "0",
+      "ri_list": "0",
+      "not_supported_preconds_evaluation": "1",
+      "no_insert_threated_act_in_neighb": "1",
+      "improve_reachability": "0",
+      "no_cut": "0",
+      "relaxed_neighborhood_evaluation": "0",
+      "verifyinit": "0",
+      "walkplan": "0",
+      "mutex_and_additive_effects": "1",
+      "numrestart": "9",
+      "cri_intermediate_levels": "1",
+      "numtry": 500,
+      "verifyAf": "0",
+      "h": "6",
+      "criprecond": "6",
+      "zero_num_A": "0",
+      "lagrange": "0",
+      "initializeichoice": "0",
+      "cri_insertion_add_mutex": "0",
+      "remove_act_next_step": "0",
+      "cri_update_iterations": 0,
+      "evaluate_mutex_for_action_remotion": "0",
+      "choose_min_numA_fact": "1",
+      "nonuniform_random": "0",
+      "reset_extended_unsupported_facts": "0"
+    }
+  }
+}
