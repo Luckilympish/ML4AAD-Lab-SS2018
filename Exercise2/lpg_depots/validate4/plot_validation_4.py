@@ -34,7 +34,7 @@ def main():
     ax1.plot([0,100],[100,100], linestyle='dashed', color="black")
     ax1.plot([100,100],[100,0],linestyle='dashed', color="black")
     plt.ylabel("Default Configuration")
-    plt.xlabel("Incumbent of run 1")
+    plt.xlabel("Incumbent of run 4")
     ax1.set_xlim([0,175])
     ax1.set_ylim([0,175])
     plt.gca().set_aspect('equal', adjustable='box')
