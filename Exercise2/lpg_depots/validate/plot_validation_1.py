@@ -31,10 +31,13 @@ def main():
     ax1 = fig1.add_subplot(111)
     ax1.plot(cost_incumbent,cost_default,'ro', color="gray")
     ax1.plot([0,100],[0,100],'k',color="red")
+    ax1.plot([0,100],[100,100],'k',color="black")
+    ax1.plot([100,100],[100,0],'k',color="black")
     plt.ylabel("Default Configuration")
     plt.xlabel("Incumbent of run 1")
     plt.xlim(0,175)
     plt.ylim(0,175)
+    plt.axis('equal')
     plt.title("Performance of Incumbents compared to Default Configuration")
     plt.savefig("perf_inc_vs_def.png")
 if "__main__" == __name__:
