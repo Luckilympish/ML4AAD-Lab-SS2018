@@ -1,0 +1,81 @@
+2018-05-30 16:54:06:INFO:smac.utils.io.cmd_reader.CMDReader:Output to smac3-output_2018-05-30_16:54:06_323481
+2018-05-30 16:54:06:DEBUG:smac.scenario.scenario.Scenario:SMAC and Scenario Options:
+2018-05-30 16:54:06:DEBUG:smac.scenario.scenario.Scenario:Output directory does not exist! Will be created.
+2018-05-30 16:54:06:DEBUG:smac.scenario.scenario.Scenario:Writing scenario-file to smac3-output_2018-05-30_16:54:06_323481/run_1/scenario.txt.
+2018-05-30 16:54:06:DEBUG:smac.tae.execute_ta_run_old.ExecuteTARunOld:Calling: python3 ./dn_net/KerasWrapper.py --mem-limit 3072 instances/train/instance1.csv 0 99999999999999.0 0 491263 -activation relu -batch_size 10.0 -epochs 10.0 -kernel_initializer uniform -neurons 1.0 -optimizer Adam
+2018-05-30 16:54:09:DEBUG:smac.tae.execute_ta_run_old.ExecuteTARunOld:Stdout: 
+2018-05-30 16:54:09:DEBUG:smac.tae.execute_ta_run_old.ExecuteTARunOld:Stderr: /home/shalag/.local/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/tensor_util.py", line 498, in make_tensor_proto
+    str_values = [compat.as_bytes(x) for x in proto_values]
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/tensor_util.py", line 498, in <listcomp>
+    str_values = [compat.as_bytes(x) for x in proto_values]
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/util/compat.py", line 65, in as_bytes
+    (bytes_or_text,))
+TypeError: Expected binary or unicode string, got 8
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./dn_net/KerasWrapper.py", line 53, in <module>
+    wrapper.main()    
+  File "/home/shalag/.local/lib/python3.5/site-packages/genericWrapper4AC/generic_wrapper.py", line 204, in main
+    target_cmd = self.get_command_line_args(runargs=runargs, config=self._config_dict)
+  File "/home/shalag/ML4AAD-Lab-SS2018/Exercise2/HPO_deep_neural_net/dn_net/abstractBlackBoxWrapper.py", line 47, in get_command_line_args
+    self._return_value = self.get_value(runargs["instance"],config)
+  File "./dn_net/KerasWrapper.py", line 18, in get_value
+    return self._get_accuracy_value(instance, config)
+  File "./dn_net/KerasWrapper.py", line 42, in _get_accuracy_value
+    model.add(keras.layers.Dense(cfg["neurons"], input_dim=8, kernel_initializer=cfg["kernel_initializer"], activation=cfg["activation"]))
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/models.py", line 497, in add
+    layer(x)
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/engine/topology.py", line 592, in __call__
+    self.build(input_shapes[0])
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/layers/core.py", line 864, in build
+    constraint=self.kernel_constraint)
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/engine/topology.py", line 413, in add_weight
+    weight = K.variable(initializer(shape),
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/initializers.py", line 112, in __call__
+    dtype=dtype, seed=self.seed)
+  File "/home/shalag/.local/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py", line 3838, in random_uniform
+    dtype=dtype, seed=seed)
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/ops/random_ops.py", line 231, in random_uniform
+    shape = _ShapeTensor(shape)
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/ops/random_ops.py", line 42, in _ShapeTensor
+    return ops.convert_to_tensor(shape, dtype=dtype, name="shape")
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 932, in convert_to_tensor
+    as_ref=False)
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 1022, in internal_convert_to_tensor
+    ret = conversion_func(value, dtype=dtype, name=name, as_ref=as_ref)
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/constant_op.py", line 233, in _constant_tensor_conversion_function
+    return constant(v, dtype=dtype, name=name)
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/constant_op.py", line 212, in constant
+    value, dtype=dtype, shape=shape, verify_shape=verify_shape))
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/tensor_util.py", line 502, in make_tensor_proto
+    "supported type." % (type(values), values))
+TypeError: Failed to convert object of type <class 'tuple'> to Tensor. Contents: (8, '1.0'). Consider casting elements to a supported type.
+
+2018-05-30 16:54:09:WARNING:smac.tae.execute_ta_run_old.ExecuteTARunOld:Target algorithm crashed. Last 5 lines of stdout and stderr
+2018-05-30 16:54:09:WARNING:smac.tae.execute_ta_run_old.ExecuteTARunOld:
+2018-05-30 16:54:09:WARNING:smac.tae.execute_ta_run_old.ExecuteTARunOld:    value, dtype=dtype, shape=shape, verify_shape=verify_shape))
+  File "/home/shalag/.local/lib/python3.5/site-packages/tensorflow/python/framework/tensor_util.py", line 502, in make_tensor_proto
+    "supported type." % (type(values), values))
+TypeError: Failed to convert object of type <class 'tuple'> to Tensor. Contents: (8, '1.0'). Consider casting elements to a supported type.
+
+2018-05-30 16:54:09:DEBUG:smac.tae.execute_ta_run_old.ExecuteTARunOld:Return: Status: <StatusType.CRASHED: 3>, cost: 2147483647.000000, time: 1234567890.000000, additional: {}
+2018-05-30 16:54:09:DEBUG:smac.stats.stats.Stats:Saving stats to smac3-output_2018-05-30_16:54:06_323481/run_1/stats.json
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:##########################################################
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:Statistics:
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:#Incumbent changed: -1
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:#Target algorithm runs: 1 / 5.0
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:#Configurations: 0
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:Used wallclock time: 3.10 / 172800.00 sec 
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:Used target algorithm runtime: 1234567890.00 / inf sec
+2018-05-30 16:54:09:DEBUG:smac.stats.stats.Stats:Debug Statistics:
+2018-05-30 16:54:09:INFO:smac.stats.stats.Stats:##########################################################
+2018-05-30 16:54:09:INFO:smac.facade.smac_facade.SMAC:Final Incumbent: None
+2018-05-30 16:54:09:ERROR:smac.smac_cli.SMACCLI:First run crashed, abort. Please check your setup -- we assume that your defaultconfiguration does not crashes. (To deactivate this exception, use the SMAC scenario option 'abort_on_first_run_crash')

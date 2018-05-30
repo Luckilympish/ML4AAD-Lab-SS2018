@@ -3,13 +3,13 @@
 # BASH Shell
 #$ -S /bin/bash
 # Output files (stdout and stderr)
-#$ -o /home/shalag/lab_ml4aad/test.stdout -e /home/shalag/lab_ml4aad/test.stderr
+#$ -o /home/shalag/ML4AAD-Lab-SS2018/Exercise2/HPO_deep_neural_net/task.stdout -e /home/shalag/ML4AAD-Lab-SS2018/Exercise2/HPO_deep_neural_net/task.stderr
 # Execute  the  job  from  the  current  working  directory
 #$ -cwd
 # send no mail for events (e.g., start or end of job)
 #$ -m n
 # Array Job with 4 subjobs
-#$ -t 1-4
+##$ -t 1-4
 
 python3 ../../../.local/bin/smac --scenario scenario.txt --verbose DEBUG
 

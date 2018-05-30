@@ -1,0 +1,129 @@
+
+
+NUMERIC_THREATS_MODE: 0
+Parsing domain file:  domain 'DOM' defined ... done.
+Parsing problem file:  problem 'PROB26396' defined ... done.
+
+
+
+Modality: Fast Planner
+
+Number of actions             :    8379
+Number of conditional actions :       0
+Number of facts               :    1001
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 0.00; Action cost 1.00
+
+
+Computing mutex... 
+ RESET  fact 455 act 2074 
+ RESET  fact 426 act 3870 
+ RESET  fact 392 act 5107 
+ RESET  fact 425 act 3871 
+ RESET  fact 391 act 5108 
+ RESET  fact 461 act 2068 
+ RESET  fact 431 act 3865 
+ RESET  fact 774 act 5105 
+ RESET  fact 726 act 2060 
+ RESET  fact 720 act 3854 
+ RESET  fact 708 act 5096 
+ RESET  fact 454 act 2075 
+ RESET  fact 390 act 5109 
+ RESET  fact 463 act 2066 
+ RESET  fact 622 act 3863 
+ RESET  fact 610 act 5102 
+ RESET  fact 456 act 2073 
+ RESET  fact 427 act 3869 
+ RESET  fact 525 act 1940 
+ RESET  fact 536 act 1929 
+ RESET  fact 909 act 5079 
+ RESET  fact 396 act 5087 
+ RESET  fact 395 act 5088 
+ RESET  fact 846 act 5084 
+ RESET  fact 531 act 1934 
+ RESET  fact 535 act 1930 
+ RESET  fact 778 act 5085 
+ RESET  fact 779 act 5080 
+ RESET  fact 741 act 1926 
+ RESET  fact 711 act 5076 
+ RESET  fact 524 act 1941 
+ RESET  fact 527 act 1938 
+ RESET  fact 394 act 5089 
+ RESET  fact 397 act 5086 
+ RESET  fact 533 act 1932 
+ RESET  fact 613 act 5082 
+ RESET  fact 526 act 1939 
+ RESET  fact 528 act 1937 
+ RESET  fact 554 act 1890 
+ RESET  fact 565 act 1879 
+ RESET  fact 470 act 4927 
+ RESET  fact 927 act 4919 
+ RESET  fact 469 act 4928 
+ RESET  fact 473 act 4924 
+ RESET  fact 476 act 4921 
+ RESET  fact 560 act 1884 
+ RESET  fact 564 act 1880 
+ RESET  fact 472 act 4925 
+ RESET  fact 794 act 4920 
+ RESET  fact 747 act 1876 
+ RESET  fact 729 act 4916 
+ RESET  fact 553 act 1891 
+ RESET  fact 556 act 1888 
+ RESET  fact 561 act 1883 
+ RESET  fact 468 act 4929 
+ RESET  fact 471 act 4926 
+ RESET  fact 474 act 4923 
+ RESET  fact 562 act 1882 
+ RESET  fact 475 act 4922 
+ RESET  fact 555 act 1889 
+ RESET  fact 557 act 1887 
+ RESET  fact 558 act 1886 
+ RESET  fact 522 act 4843 
+ RESET  fact 514 act 4851 
+ RESET  fact 520 act 4845 
+ RESET  fact 880 act 4842 
+ RESET  fact 513 act 4852 
+ RESET  fact 517 act 4848 
+ RESET  fact 521 act 4844 
+ RESET  fact 516 act 4849 
+ RESET  fact 738 act 4840 
+ RESET  fact 518 act 4847 
+ RESET  fact 512 act 4853 
+ RESET  fact 515 act 4850 
+ RESET  fact 519 act 4846 
+ RESET  fact 550 act 4795 
+ RESET  fact 542 act 4803 
+ RESET  fact 545 act 4800 
+ RESET  fact 548 act 4797 
+ RESET  fact 551 act 4794 
+ RESET  fact 884 act 4793 
+ RESET  fact 541 act 4804 
+ RESET  fact 544 act 4801 
+ RESET  fact 549 act 4796 
+ RESET  fact 744 act 4792 
+ RESET  fact 540 act 4805 
+ RESET  fact 543 act 4802 
+ RESET  fact 546 act 4799 
+ RESET  fact 547 act 4798 done
+
+Preprocessing total time: 0.26 seconds
+
+Searching ('.' = every 50 search steps):
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+..... search limit exceeded. Restart.
+
+LPG: Segmentation Fault - Seed 738721346

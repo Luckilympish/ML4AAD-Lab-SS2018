@@ -1,0 +1,32 @@
+
+
+NUMERIC_THREATS_MODE: 0
+Parsing domain file:  domain 'DOM' defined ... done.
+Parsing problem file:  problem 'PROB9537' defined ... done.
+
+
+
+Modality: Fast Planner
+
+Number of actions             :    8280
+Number of conditional actions :       0
+Number of facts               :     887
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 0.00; Action cost 1.00
+
+
+Computing mutex... done
+
+Preprocessing total time: 0.11 seconds
+
+Searching ('.' = every 50 search steps):
+.......
+LPG: Segmentation Fault - Seed 691964162

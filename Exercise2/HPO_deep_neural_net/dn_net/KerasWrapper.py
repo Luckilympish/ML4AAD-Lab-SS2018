@@ -2,7 +2,10 @@ import sys
 import re
 import math
 import logging
-
+import numpy
+import keras
+import tensorflow
+from sklearn.model_selection import train_test_split
 from abstractBlackBoxWrapper import AbstractBlackBoxWrapper
 
 class KerasWrapper(AbstractBlackBoxWrapper):
@@ -13,8 +16,9 @@ class KerasWrapper(AbstractBlackBoxWrapper):
         
     def get_value(self, instance, config):
         return self._get_accuracy_value(instance, config)
-    def read_instance(instance):
-	X = instance.split("\n")
+    def read_instance(self, instance):
+        dataset = numpy.loadtxt(instance, delimiter=",")
+        X = dataset.split("\n")
         X1 = []
         X3 = []
         for row in X:
@@ -27,15 +31,16 @@ class KerasWrapper(AbstractBlackBoxWrapper):
         return X3
 
     def _get_accuracy_value(self, instance, cfg):
-	from numpy.random import seed
-        dataset = self.read_instance(instance)
+        numpy.random.seed(1)
+        tensorflow.set_random_seed(2)
+        dataset = numpy.loadtxt(instance, delimiter=",")
         X = dataset[:,0:8]
         Y = dataset[:,8]
         X_train, X_test, y_train, y_test = train_test_split(X,Y, test_size=0.2)
 	# create model
-        model = Sequential()
-        model.add(Dense(cfg["neurons"], input_dim=8, kernel_initializer=cfg["kernel_initializer"], activation=cfg["activation"]))
-        model.add(Dense(1, activation='sigmoid'))
+        model = keras.models.Sequential()
+        model.add(keras.layers.Dense(cfg["neurons"], input_dim=8, kernel_initializer=cfg["kernel_initializer"], activation=cfg["activation"]))
+        model.add(keras.layers.Dense(1, activation='sigmoid'))
         # Compile model
         model.compile(loss='binary_crossentropy', optimizer=cfg["optimizer"], metrics=['accuracy'])
         model.fit(X_train, y_train, batch_size=cfg["batch_size"], epochs=cfg["epochs"])

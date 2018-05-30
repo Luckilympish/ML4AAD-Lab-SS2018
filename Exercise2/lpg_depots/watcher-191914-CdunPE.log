@@ -1,0 +1,160 @@
+runsolver Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This is runsolver version 3.3.4 (svn: 1649) [AEATK2]
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+command line: /home/shalag/.local/lib/python2.7/site-packages/genericWrapper4AC/binaries/runsolver -M 2048 -C 14 -w /tmp/383431.4.lab_course.q/watcher-191914-CdunPE.log -o /tmp/383431.4.lab_course.q/solver-191914-DS0fpK.log /home/shalag/ML4AAD-Lab-SS2018/Exercise2/lpg_depots/lpg/src/lpg -speed -seed 1782693159 -o ./instances/encoding.pddl -f /home/shalag/ML4AAD-Lab-SS2018/Exercise2/lpg_depots/instances/train/training-22-24.pddl -out /tmp/tmpnpuuUi/planner_output -extended_unsupported_goals 0 -not_supported_preconds_evaluation 1 -ichoice 5 -choose_min_numA_fact 1 -inc_re 1.7302118539930706 -ri_list 1 -donot_try_suspected_actions 0 -extended_effects_evaluation 0 -no_insert_threated_act_in_neighb 0 -no_mutex_with_additive_effects 0 -remove_act_next_step 0 -relaxed_examination 1 -criprecond 4 -h 6 -reset_extended_unsupported_facts 0 -maxnoise 47 -evaluation_function 1 -mutex_and_additive_effects 1 -verifyAf 1 -twalkplan 1 -stop_remove_act 0 -verifyinit 1 -walkplan 1 -bestfirst 0 -evaluate_threated_supported_preconds_of_neighb_action 0 -numtry 666 -zero_num_A 1 -noise 0.7266380397529674 -nonuniform_random 0 -cri_insertion_add_mutex 1 -evaluate_mutex_for_action_remotion 0 -initializeichoice 1 -no_cut 1 -improve_reachability 1 -relaxed_neighborhood_evaluation 0 -lagrange 0 -triomemory 1 -static_noise 1 -inst_with_contraddicting_objects 0 -cri_update_iterations 86 -numrestart 14 -avoid_best_action_cycles 2 -not_extended_unsupported_facts 1 -weight_mutex_in_relaxed_plan 1.699012716034595 -cri_intermediate_levels 2 -inst_duplicate_param 1 -fast_best_action_evaluation 0 -vicinato 4 -no_pruning 1 
+
+running on 1 cores: 11
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 14 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 44 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 2097152 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 2148352 KiB
+
+[startup+0 s]
+/proc/loadavg: 6.99 6.68 6.52 9/434 179826
+/proc/meminfo: memFree=55189976/65862604 swapFree=3648/1366596
+[pid=179826] ppid=179824 vsize=17584 CPUtime=0 cores=11
+/proc/179826/stat : 179826 (runsolver) R 179824 179823 163124 0 -1 4194368 0 0 0 0 0 0 0 0 0 -20 1 0 668940544 18006016 55 4294967296 4194304 4294504 140736713868064 140736713865328 47351599035418 0 24578 16781312 0 0 0 0 17 11 0 0 0 0 0 6393304 6398512 12165120 140736713872286 140736713873884 140736713873884 140736713875363 0
+/proc/179826/statm: 4396 55 0 25 0 620 0
+Current StackSize limit: 18014398509481983 KiB
+
+Stop Solver Thread: Started
+
+[startup+0.023239 s]
+/proc/loadavg: 6.99 6.68 6.52 9/434 179826
+/proc/meminfo: memFree=55189976/65862604 swapFree=3648/1366596
+[pid=179826] ppid=179824 vsize=40984 CPUtime=0.01 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 7042 0 0 0 0 1 0 0 0 -20 1 0 668940544 41967616 8723 4294967296 4194304 6136546 140731543532272 140731543530984 5242961 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 10246 8723 209 475 0 9767 0
+Current children cumulated CPU time (s) 0.01
+Current children cumulated vsize (KiB) 40984
+
+[startup+0.100249 s]
+/proc/loadavg: 6.99 6.68 6.52 9/434 179826
+/proc/meminfo: memFree=55189976/65862604 swapFree=3648/1366596
+[pid=179826] ppid=179824 vsize=212148 CPUtime=0.08 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 44298 0 0 0 0 8 0 0 0 -20 1 0 668940544 217239552 45947 4294967296 4194304 6136546 140731543532272 140731543530984 5243008 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 53037 45947 209 475 0 52558 0
+Current children cumulated CPU time (s) 0.08
+Current children cumulated vsize (KiB) 212148
+
+[startup+0.300165 s]
+/proc/loadavg: 6.99 6.68 6.52 9/434 179826
+/proc/meminfo: memFree=55189976/65862604 swapFree=3648/1366596
+[pid=179826] ppid=179824 vsize=431440 CPUtime=0.28 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 89362 0 0 0 12 16 0 0 0 -20 1 0 668940544 441794560 91170 4294967296 4194304 6136546 140731543532272 140731543530624 4628514 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 107860 91170 385 475 0 107381 0
+Current children cumulated CPU time (s) 0.28
+Current children cumulated vsize (KiB) 431440
+
+[startup+0.700157 s]
+/proc/loadavg: 6.99 6.68 6.52 9/434 179826
+/proc/meminfo: memFree=55189976/65862604 swapFree=3648/1366596
+[pid=179826] ppid=179824 vsize=450948 CPUtime=0.68 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 93288 0 0 0 51 17 0 0 0 -20 1 0 668940544 461770752 95684 4294967296 4194304 6136546 140731543532272 140731543525024 4472095 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 112737 95684 433 475 0 112258 0
+Current children cumulated CPU time (s) 0.68
+Current children cumulated vsize (KiB) 450948
+
+[startup+1.50016 s]
+/proc/loadavg: 6.99 6.68 6.52 7/435 179828
+/proc/meminfo: memFree=54799892/65862604 swapFree=3648/1366592
+[pid=179826] ppid=179824 vsize=454016 CPUtime=1.47 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 94119 0 0 0 130 17 0 0 0 -20 1 0 668940544 464912384 96476 4294967296 4194304 6136546 140731543532272 140731543523760 4440634 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 113504 96476 433 475 0 113025 0
+Current children cumulated CPU time (s) 1.47
+Current children cumulated vsize (KiB) 454016
+
+[startup+3.10016 s]
+/proc/loadavg: 6.91 6.67 6.51 7/431 179836
+/proc/meminfo: memFree=55268060/65862604 swapFree=3648/1366596
+[pid=179826] ppid=179824 vsize=460840 CPUtime=3.07 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 99250 0 0 0 289 18 0 0 0 -20 1 0 668940544 471900160 98207 4294967296 4194304 6136546 140731543532272 140731543525024 4472190 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 115210 98207 433 475 0 114731 0
+Current children cumulated CPU time (s) 3.07
+Current children cumulated vsize (KiB) 460840
+
+[startup+6.30016 s]
+/proc/loadavg: 6.91 6.67 6.51 7/435 179860
+/proc/meminfo: memFree=54803348/65862604 swapFree=3648/1366592
+[pid=179826] ppid=179824 vsize=474528 CPUtime=6.24 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 114596 0 0 0 606 18 0 0 0 -20 1 0 668940544 485916672 101618 4294967296 4194304 6136546 140731543532272 140731543524064 4431782 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 118632 101618 433 475 0 118153 0
+Current children cumulated CPU time (s) 6.24
+Current children cumulated vsize (KiB) 474528
+
+
+
+Shutdown Reason:
+Solver termination detected (return from wait4)
+Requesting Timer Thread Should Shutdown 
+Setting solver is running = false 
+Joining on timer Thread 
+Stop Solver Thread: Should Execute
+Timer Thread detected shutdown flag, shutting downStop Solver Thread: Timer Thread Stopped
+
+[startup+6.40023 s]
+/proc/loadavg: 6.91 6.67 6.51 7/435 179860
+/proc/meminfo: memFree=54803348/65862604 swapFree=3648/1366592
+[pid=179826] ppid=179824 vsize=475512 CPUtime=6.34 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 115264 0 0 0 616 18 0 0 0 -20 1 0 668940544 486924288 101876 4294967296 4194304 6136546 140731543532272 140731543530496 4431786 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 118878 101876 433 475 0 118399 0
+Current children cumulated CPU time (s) 6.34
+Current children cumulated vsize (KiB) 475512
+
+Sending SIGTERM to process tree (bottom up)
+Stop Solver Thread: SIGTERM sent, waiting and sending SIGKILL
+Sleeping 2 seconds
+Stop Solver Thread: DONE
+Timer Thread Done
+Waiting for stop solver thread
+Sending fallback SIGKILL signal to process group
+
+Solver just ended. Dumping a history of the last processes samples
+
+[startup+6.40023 s]
+/proc/loadavg: 6.91 6.67 6.51 7/435 179860
+/proc/meminfo: memFree=54803348/65862604 swapFree=3648/1366592
+[pid=179826] ppid=179824 vsize=475512 CPUtime=6.34 cores=11
+/proc/179826/stat : 179826 (lpg) R 179824 179826 163124 0 -1 4194304 115264 0 0 0 616 18 0 0 0 -20 1 0 668940544 486924288 101876 4294967296 4194304 6136546 140731543532272 140731543530496 4431786 0 24578 16781312 1024 0 0 0 17 11 0 0 0 0 0 8236720 8245328 36024320 140731543540869 140731543542257 140731543542257 140731543543736 0
+/proc/179826/statm: 118878 101876 433 475 0 118399 0
+Current children cumulated CPU time (s) 6.34
+Current children cumulated vsize (KiB) 475512
+
+Child status: 1
+Real time (s): 6.46867
+runsolver_walltime: 6.46867
+CPU time (s): 6.42
+runsolver_cputime: 6.42
+CPU user time (s): 6.188
+CPU system time (s): 0.232
+CPU usage (%): 99.2476
+Max. virtual memory (cumulated for all children) (KiB): 475512
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 6.188
+system time used= 0.232
+maximum resident set size= 408112
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 115990
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 22808
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 6
+involuntary context switches= 83
+
+runsolver used 0.02 second user time and 0.032 second system time
+
+The end

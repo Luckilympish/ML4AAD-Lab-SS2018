@@ -1,4 +1,4 @@
-algo = python ./lpg/wrapper.py  
+algo = python ./lpg/wrapper.py --problem-enc ./instances/encoding.pddl 
 paramfile = ./lpg/params.pcs
 execdir = .
 deterministic = 0

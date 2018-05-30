@@ -1,0 +1,32 @@
+{
+  "configs": {
+    "1": {
+      "epochs": 10.0,
+      "activation": "relu",
+      "neurons": 1.0,
+      "batch_size": 10.0,
+      "kernel_initializer": "uniform",
+      "optimizer": "Adam"
+    }
+  },
+  "data": [
+    [
+      [
+        1,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        2147483647.0,
+        1234567890.0,
+        {
+          "__enum__": "StatusType.CRASHED"
+        },
+        {}
+      ]
+    ]
+  ],
+  "config_origins": {
+    "1": "Default"
+  }
+}

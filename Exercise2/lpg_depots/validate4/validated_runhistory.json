@@ -1,0 +1,2278 @@
+{
+  "config_origins": {
+    "2": "External Trajectory"
+  },
+  "data": [
+    [
+      [
+        1,
+        "instances/test/testing-15-162.pddl",
+        1791095845
+      ],
+      [
+        11.448,
+        11.448,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-15-162.pddl",
+        1791095845
+      ],
+      [
+        0.896,
+        0.896,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-15-213.pddl",
+        2135392491
+      ],
+      [
+        0.576,
+        0.576,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-15-213.pddl",
+        2135392491
+      ],
+      [
+        0.484,
+        0.484,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-15-66.pddl",
+        946286476
+      ],
+      [
+        0.424,
+        0.424,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-15-66.pddl",
+        946286476
+      ],
+      [
+        0.456,
+        0.456,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-16-15.pddl",
+        1857819720
+      ],
+      [
+        0.476,
+        0.476,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-16-15.pddl",
+        1857819720
+      ],
+      [
+        0.452,
+        0.452,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-16-228.pddl",
+        491263
+      ],
+      [
+        0.732,
+        0.732,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-16-228.pddl",
+        491263
+      ],
+      [
+        0.7,
+        0.7,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-17-167.pddl",
+        550290313
+      ],
+      [
+        40.924,
+        40.924,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-17-167.pddl",
+        550290313
+      ],
+      [
+        0.552,
+        0.552,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-17-79.pddl",
+        1298508491
+      ],
+      [
+        4.964,
+        4.964,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-17-79.pddl",
+        1298508491
+      ],
+      [
+        0.972,
+        0.972,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-18-110.pddl",
+        2143362693
+      ],
+      [
+        37.136,
+        37.136,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-18-110.pddl",
+        2143362693
+      ],
+      [
+        0.564,
+        0.564,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-18-184.pddl",
+        630311759
+      ],
+      [
+        6.78,
+        6.78,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-18-184.pddl",
+        630311759
+      ],
+      [
+        0.884,
+        0.884,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-18-239.pddl",
+        1013994432
+      ],
+      [
+        0.736,
+        0.736,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-18-239.pddl",
+        1013994432
+      ],
+      [
+        1.18,
+        1.18,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-18-25.pddl",
+        396591248
+      ],
+      [
+        3.384,
+        3.384,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-18-25.pddl",
+        396591248
+      ],
+      [
+        0.876,
+        0.876,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-18-69.pddl",
+        1703301249
+      ],
+      [
+        8.296,
+        8.296,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-18-69.pddl",
+        1703301249
+      ],
+      [
+        1.936,
+        1.936,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-19-149.pddl",
+        799981516
+      ],
+      [
+        10.36,
+        10.36,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-19-149.pddl",
+        799981516
+      ],
+      [
+        0.928,
+        0.928,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-19-192.pddl",
+        1666063943
+      ],
+      [
+        12.596,
+        12.596,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-19-192.pddl",
+        1666063943
+      ],
+      [
+        3.956,
+        3.956,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-19-195.pddl",
+        1484172013
+      ],
+      [
+        0.72,
+        0.72,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-19-195.pddl",
+        1484172013
+      ],
+      [
+        1.456,
+        1.456,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-19-206.pddl",
+        729053692
+      ],
+      [
+        2.104,
+        2.104,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-19-206.pddl",
+        729053692
+      ],
+      [
+        0.804,
+        0.804,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-19-238.pddl",
+        1704103302
+      ],
+      [
+        7.364,
+        7.364,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-19-238.pddl",
+        1704103302
+      ],
+      [
+        5.168,
+        5.168,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-125.pddl",
+        1870626073
+      ],
+      [
+        20.472,
+        20.472,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-125.pddl",
+        1870626073
+      ],
+      [
+        2.94,
+        2.94,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-146.pddl",
+        166716594
+      ],
+      [
+        4.38,
+        4.38,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-146.pddl",
+        166716594
+      ],
+      [
+        1.076,
+        1.076,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-212.pddl",
+        1487394068
+      ],
+      [
+        0.68,
+        0.68,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-212.pddl",
+        1487394068
+      ],
+      [
+        1.424,
+        1.424,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-216.pddl",
+        1800426750
+      ],
+      [
+        63.324,
+        63.324,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-216.pddl",
+        1800426750
+      ],
+      [
+        0.648,
+        0.648,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-24.pddl",
+        1345499493
+      ],
+      [
+        1.096,
+        1.096,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-24.pddl",
+        1345499493
+      ],
+      [
+        0.576,
+        0.576,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-39.pddl",
+        795511698
+      ],
+      [
+        37.288,
+        37.288,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-39.pddl",
+        795511698
+      ],
+      [
+        1.636,
+        1.636,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-52.pddl",
+        105433556
+      ],
+      [
+        7.796,
+        7.796,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-52.pddl",
+        105433556
+      ],
+      [
+        3.168,
+        3.168,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-55.pddl",
+        878115723
+      ],
+      [
+        1.036,
+        1.036,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-55.pddl",
+        878115723
+      ],
+      [
+        0.956,
+        0.956,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-20-85.pddl",
+        1904615676
+      ],
+      [
+        54.332,
+        54.332,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-20-85.pddl",
+        1904615676
+      ],
+      [
+        4.368,
+        4.368,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-21-166.pddl",
+        1624002026
+      ],
+      [
+        70.524,
+        70.524,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-21-166.pddl",
+        1624002026
+      ],
+      [
+        1.044,
+        1.044,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-21-216.pddl",
+        986026652
+      ],
+      [
+        1.328,
+        1.328,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-21-216.pddl",
+        986026652
+      ],
+      [
+        1.18,
+        1.18,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-21-37.pddl",
+        117628829
+      ],
+      [
+        4.592,
+        4.592,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-21-37.pddl",
+        117628829
+      ],
+      [
+        1.592,
+        1.592,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-21-96.pddl",
+        147806606
+      ],
+      [
+        10.148,
+        10.148,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-21-96.pddl",
+        147806606
+      ],
+      [
+        0.808,
+        0.808,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-22-125.pddl",
+        732152370
+      ],
+      [
+        3.26,
+        3.26,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-22-125.pddl",
+        732152370
+      ],
+      [
+        11.764,
+        11.764,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-22-136.pddl",
+        1777953348
+      ],
+      [
+        1.64,
+        1.64,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-22-136.pddl",
+        1777953348
+      ],
+      [
+        1.76,
+        1.76,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-22-234.pddl",
+        1792310487
+      ],
+      [
+        5.036,
+        5.036,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-22-234.pddl",
+        1792310487
+      ],
+      [
+        2.472,
+        2.472,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-22-242.pddl",
+        1963679703
+      ],
+      [
+        49.34,
+        49.34,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-22-242.pddl",
+        1963679703
+      ],
+      [
+        1.352,
+        1.352,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-22-47.pddl",
+        252070889
+      ],
+      [
+        1000,
+        100.0,
+        {
+          "__enum__": "StatusType.TIMEOUT"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-22-47.pddl",
+        252070889
+      ],
+      [
+        0.704,
+        0.704,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-15-154.pddl",
+        1849836273
+      ],
+      [
+        1.844,
+        1.844,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-15-154.pddl",
+        1849836273
+      ],
+      [
+        0.688,
+        0.688,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-15-29.pddl",
+        602957303
+      ],
+      [
+        0.68,
+        0.68,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-15-29.pddl",
+        602957303
+      ],
+      [
+        0.476,
+        0.476,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-16-81.pddl",
+        1886039518
+      ],
+      [
+        4.916,
+        4.916,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-16-81.pddl",
+        1886039518
+      ],
+      [
+        0.672,
+        0.672,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-17-142.pddl",
+        850839392
+      ],
+      [
+        0.624,
+        0.624,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-17-142.pddl",
+        850839392
+      ],
+      [
+        0.468,
+        0.468,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-17-237.pddl",
+        1195672662
+      ],
+      [
+        0.74,
+        0.74,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-17-237.pddl",
+        1195672662
+      ],
+      [
+        0.868,
+        0.868,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-17-84.pddl",
+        1291688077
+      ],
+      [
+        13.108,
+        13.108,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-17-84.pddl",
+        1291688077
+      ],
+      [
+        0.452,
+        0.452,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-18-238.pddl",
+        927586281
+      ],
+      [
+        0.672,
+        0.672,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-18-238.pddl",
+        927586281
+      ],
+      [
+        0.456,
+        0.456,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-18-249.pddl",
+        2011168137
+      ],
+      [
+        5.44,
+        5.44,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-18-249.pddl",
+        2011168137
+      ],
+      [
+        3.152,
+        3.152,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-18-98.pddl",
+        1300333575
+      ],
+      [
+        1.688,
+        1.688,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-18-98.pddl",
+        1300333575
+      ],
+      [
+        0.572,
+        0.572,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-19-178.pddl",
+        1346146623
+      ],
+      [
+        0.844,
+        0.844,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-19-178.pddl",
+        1346146623
+      ],
+      [
+        0.628,
+        0.628,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-19-209.pddl",
+        398576445
+      ],
+      [
+        8.032,
+        8.032,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-19-209.pddl",
+        398576445
+      ],
+      [
+        0.728,
+        0.728,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-19-41.pddl",
+        826019350
+      ],
+      [
+        0.864,
+        0.864,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-19-41.pddl",
+        826019350
+      ],
+      [
+        1.096,
+        1.096,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-19-51.pddl",
+        77964601
+      ],
+      [
+        0.8,
+        0.8,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-19-51.pddl",
+        77964601
+      ],
+      [
+        0.664,
+        0.664,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-19-70.pddl",
+        1616579073
+      ],
+      [
+        0.844,
+        0.844,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-19-70.pddl",
+        1616579073
+      ],
+      [
+        0.88,
+        0.88,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-20-212.pddl",
+        1567750016
+      ],
+      [
+        0.896,
+        0.896,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-20-212.pddl",
+        1567750016
+      ],
+      [
+        0.732,
+        0.732,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-20-221.pddl",
+        1694822716
+      ],
+      [
+        0.824,
+        0.824,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-20-221.pddl",
+        1694822716
+      ],
+      [
+        0.868,
+        0.868,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-20-231.pddl",
+        1413675217
+      ],
+      [
+        0.94,
+        0.94,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-20-231.pddl",
+        1413675217
+      ],
+      [
+        0.936,
+        0.936,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-20-244.pddl",
+        365262088
+      ],
+      [
+        1.012,
+        1.012,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-20-244.pddl",
+        365262088
+      ],
+      [
+        1.512,
+        1.512,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-20-70.pddl",
+        1415635672
+      ],
+      [
+        0.864,
+        0.864,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-20-70.pddl",
+        1415635672
+      ],
+      [
+        0.976,
+        0.976,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-105.pddl",
+        167739021
+      ],
+      [
+        5.28,
+        5.28,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-105.pddl",
+        167739021
+      ],
+      [
+        1.26,
+        1.26,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-160.pddl",
+        1172740723
+      ],
+      [
+        91.236,
+        91.236,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-160.pddl",
+        1172740723
+      ],
+      [
+        5.64,
+        5.64,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-189.pddl",
+        729416111
+      ],
+      [
+        1000,
+        100.0,
+        {
+          "__enum__": "StatusType.TIMEOUT"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-189.pddl",
+        729416111
+      ],
+      [
+        1.544,
+        1.544,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-223.pddl",
+        254447594
+      ],
+      [
+        1.084,
+        1.084,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-223.pddl",
+        254447594
+      ],
+      [
+        1.368,
+        1.368,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-226.pddl",
+        1624109689
+      ],
+      [
+        1000,
+        100.0,
+        {
+          "__enum__": "StatusType.TIMEOUT"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-226.pddl",
+        1624109689
+      ],
+      [
+        10.924,
+        10.924,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-230.pddl",
+        732412360
+      ],
+      [
+        1.756,
+        1.756,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-230.pddl",
+        732412360
+      ],
+      [
+        3.96,
+        3.96,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-24.pddl",
+        422396446
+      ],
+      [
+        1.064,
+        1.064,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-24.pddl",
+        422396446
+      ],
+      [
+        1.14,
+        1.14,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-243.pddl",
+        399713351
+      ],
+      [
+        1.024,
+        1.024,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-243.pddl",
+        399713351
+      ],
+      [
+        1.832,
+        1.832,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-29.pddl",
+        1808643459
+      ],
+      [
+        2.492,
+        2.492,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-29.pddl",
+        1808643459
+      ],
+      [
+        3.756,
+        3.756,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-79.pddl",
+        737248710
+      ],
+      [
+        1.056,
+        1.056,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-79.pddl",
+        737248710
+      ],
+      [
+        1.064,
+        1.064,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-83.pddl",
+        1966620565
+      ],
+      [
+        1.188,
+        1.188,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-83.pddl",
+        1966620565
+      ],
+      [
+        0.628,
+        0.628,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-21-86.pddl",
+        1768615473
+      ],
+      [
+        30.356,
+        30.356,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-21-86.pddl",
+        1768615473
+      ],
+      [
+        2.5,
+        2.5,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-22-130.pddl",
+        142443833
+      ],
+      [
+        4.572,
+        4.572,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-22-130.pddl",
+        142443833
+      ],
+      [
+        5.588,
+        5.588,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-22-175.pddl",
+        848474627
+      ],
+      [
+        19.716,
+        19.716,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-22-175.pddl",
+        848474627
+      ],
+      [
+        0.928,
+        0.928,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-22-181.pddl",
+        824105924
+      ],
+      [
+        1000,
+        100.0,
+        {
+          "__enum__": "StatusType.TIMEOUT"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-22-181.pddl",
+        824105924
+      ],
+      [
+        1.688,
+        1.688,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-22-50.pddl",
+        1243949848
+      ],
+      [
+        32.06,
+        32.06,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-22-50.pddl",
+        1243949848
+      ],
+      [
+        1.056,
+        1.056,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-22-62.pddl",
+        1355129329
+      ],
+      [
+        1.416,
+        1.416,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-22-62.pddl",
+        1355129329
+      ],
+      [
+        1.332,
+        1.332,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/test/testing-B-22-82.pddl",
+        610401323
+      ],
+      [
+        1.312,
+        1.312,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/test/testing-B-22-82.pddl",
+        610401323
+      ],
+      [
+        3.176,
+        3.176,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ]
+  ],
+  "configs": {
+    "1": {
+      "numtry": 500,
+      "triomemory": "0",
+      "not_supported_preconds_evaluation": "1",
+      "h": "6",
+      "verifyAf": "0",
+      "zero_num_A": "0",
+      "improve_reachability": "0",
+      "verifyinit": "0",
+      "twalkplan": "0",
+      "tabu_fct": "1",
+      "static_noise": "0",
+      "evaluate_mutex_for_action_remotion": "0",
+      "tabu_act": "1",
+      "choose_min_numA_fact": "1",
+      "numrestart": "9",
+      "dynoiseTabLen": 1.2,
+      "inst_duplicate_param": "0",
+      "bestfirst": "1",
+      "not_extended_unsupported_facts": "1",
+      "inst_with_contraddicting_objects": "0",
+      "evaluate_threated_supported_preconds_of_neighb_action": "0",
+      "extended_unsupported_goals": "0",
+      "cri_insertion_add_mutex": "0",
+      "nonuniform_random": "0",
+      "walkplan": "0",
+      "vicinato": "4",
+      "criprecond": "6",
+      "weight_mutex_in_relaxed_plan": 1.0,
+      "no_mutex_with_additive_effects": "0",
+      "tabu_length": 5,
+      "relaxed_examination": "0",
+      "dynoisecoefnum": 1.5,
+      "no_cut": "0",
+      "evaluation_function": "1",
+      "initializeichoice": "0",
+      "cri_update_iterations": 0,
+      "noise": 0.1,
+      "donot_try_suspected_actions": "1",
+      "extended_effects_evaluation": "0",
+      "fast_best_action_evaluation": "0",
+      "no_pruning": "0",
+      "reset_extended_unsupported_facts": "0",
+      "stop_remove_act": "0",
+      "no_insert_threated_act_in_neighb": "1",
+      "noise_incr": 1.25,
+      "mutex_and_additive_effects": "1",
+      "ri_list": "0",
+      "avoid_best_action_cycles": "0",
+      "maxnoise": 60,
+      "cri_intermediate_levels": "1",
+      "remove_act_next_step": "0",
+      "lagrange": "0",
+      "relaxed_neighborhood_evaluation": "0",
+      "inc_re": 1.16
+    },
+    "2": {
+      "numtry": 750,
+      "triomemory": "1",
+      "not_supported_preconds_evaluation": "0",
+      "h": "5",
+      "verifyAf": "1",
+      "zero_num_A": "0",
+      "improve_reachability": "0",
+      "verifyinit": "1",
+      "twalkplan": "0",
+      "static_noise": "0",
+      "evaluate_mutex_for_action_remotion": "0",
+      "choose_min_numA_fact": "0",
+      "numrestart": "16",
+      "dynoiseTabLen": 1.2013585296947482,
+      "inst_duplicate_param": "1",
+      "bestfirst": "1",
+      "not_extended_unsupported_facts": "0",
+      "inst_with_contraddicting_objects": "0",
+      "evaluate_threated_supported_preconds_of_neighb_action": "0",
+      "extended_unsupported_goals": "0",
+      "cri_insertion_add_mutex": "0",
+      "nonuniform_random": "0",
+      "walkplan": "1",
+      "vicinato": "1",
+      "criprecond": "6",
+      "weight_mutex_in_relaxed_plan": 0.8960173734648615,
+      "no_mutex_with_additive_effects": "0",
+      "relaxed_examination": "1",
+      "dynoisecoefnum": 1.415497841738395,
+      "evaluation_function": "1",
+      "initializeichoice": "1",
+      "cri_update_iterations": 0,
+      "noise": 0.1,
+      "donot_try_suspected_actions": "0",
+      "extended_effects_evaluation": "0",
+      "fast_best_action_evaluation": "0",
+      "no_pruning": "1",
+      "reset_extended_unsupported_facts": "0",
+      "ncut": 100,
+      "stop_remove_act": "0",
+      "no_insert_threated_act_in_neighb": "0",
+      "noise_incr": 1.2130104790447476,
+      "mutex_and_additive_effects": "1",
+      "ri_list": "0",
+      "avoid_best_action_cycles": "0",
+      "maxnoise": 55,
+      "cri_intermediate_levels": "2",
+      "remove_act_next_step": "0",
+      "relaxed_neighborhood_evaluation": "0",
+      "ichoice": "26",
+      "inc_re": 1.1597082855520373
+    }
+  }
+}

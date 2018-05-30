@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# BASH Shell
+#$ -S /bin/bash
+# Output files (stdout and stderr)
+#$ -o /home/shalag/ML4AAD-Lab-SS2018/Exercise2/lpg_depots/validate3.stdout -e /home/shalag/ML4AAD-Lab-SS2018/Exercise2/lpg_depots/validate3.stderr
+# Execute  the  job  from  the  current  working  directory
+#$ -cwd
+# send no mail for events (e.g., start or end of job)
+#$ -m n
+# Array Job with 4 subjobs
+##$ -t 1-4
+
+python3 smac-validate.py --scenario scenario.txt --trajectory smac3-output_2018-05-29_20:36:51_396024/run_1/traj_aclib2.json --output /home/shalag/ML4AAD-Lab-SS2018/Exercise2/lpg_depots/validate3  --verbose DEBUG --runhistory smac3-output_2018-05-29_20:36:51_396024/run_1/runhistory.json
+
+# use the commands below to submit jobs
+# Single Sequential job or array Job
+# $ qlab test_lab.sge
+# Job with parallel resources (here with 4 CPU cores):
+# qlab_pe test_lab.sge 4

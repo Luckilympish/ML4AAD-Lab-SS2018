@@ -1,0 +1,94 @@
+
+
+NUMERIC_THREATS_MODE: 0
+Parsing domain file:  domain 'DOM' defined ... done.
+Parsing problem file:  problem 'PROB12323' defined ... done.
+
+
+
+Modality: Fast Planner
+
+Number of actions             :   11664
+Number of conditional actions :       0
+Number of facts               :    1167
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 0.00; Action cost 1.00
+
+
+Computing mutex... 
+ RESET  fact 571 act 4789 
+ RESET  fact 477 act 5563 
+ RESET  fact 489 act 6723 
+ RESET  fact 463 act 6188 
+ RESET  fact 580 act 4780 
+ RESET  fact 960 act 6714 
+ RESET  fact 952 act 6180 
+ RESET  fact 956 act 5555 
+ RESET  fact 572 act 4788 
+ RESET  fact 464 act 6187 
+ RESET  fact 478 act 5562 
+ RESET  fact 490 act 6722 
+ RESET  fact 569 act 4791 
+ RESET  fact 487 act 6725 
+ RESET  fact 462 act 6189 
+ RESET  fact 475 act 5565 
+ RESET  fact 471 act 5569 
+ RESET  fact 484 act 6728 
+ RESET  fact 458 act 6193 
+ RESET  fact 567 act 4793 
+ RESET  fact 461 act 6190 
+ RESET  fact 485 act 6727 
+ RESET  fact 568 act 4792 
+ RESET  fact 486 act 6726 
+ RESET  fact 474 act 5566 
+ RESET  fact 565 act 4795 
+ RESET  fact 459 act 6192 
+ RESET  fact 472 act 5568 
+ RESET  fact 595 act 6546 
+ RESET  fact 588 act 6553 
+ RESET  fact 534 act 6047 
+ RESET  fact 541 act 6040 
+ RESET  fact 597 act 6544 
+ RESET  fact 979 act 6542 
+ RESET  fact 972 act 6039 
+ RESET  fact 973 act 6036 
+ RESET  fact 589 act 6552 
+ RESET  fact 591 act 6550 
+ RESET  fact 535 act 6046 
+ RESET  fact 537 act 6044 
+ RESET  fact 586 act 6555 
+ RESET  fact 533 act 6048 
+ RESET  fact 594 act 6547 
+ RESET  fact 583 act 6558 
+ RESET  fact 529 act 6052 
+ RESET  fact 540 act 6041 
+ RESET  fact 590 act 6551 
+ RESET  fact 584 act 6557 
+ RESET  fact 532 act 6049 
+ RESET  fact 536 act 6045 
+ RESET  fact 585 act 6556 
+ RESET  fact 587 act 6554 
+ RESET  fact 530 act 6051 
+ RESET  fact 531 act 6050 done
+
+Preprocessing total time: 0.40 seconds
+
+Searching ('.' = every 50 search steps):
+.................... search limit exceeded. Restart.
+....................................... search limit exceeded. Restart.
+............................................................................ search limit exceeded. Restart.
+................................................................................................................................................... search limit exceeded. Restart.
+....................................................................................................................................................................................................
+
+Warning:  Problem size too large. 
+   Size of the array for the false facts exceeded.
+   LPG should be recompiled with a higher value for the parameter MAX_FALSE.
+   If the source code is not available, please contact the authors of LPG.

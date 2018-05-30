@@ -1,0 +1,15 @@
+execdir = .
+wallclock_limit = 172800.0
+initial_incumbent = DEFAULT
+ta = python3 ./dn_net/KerasWrapper.py --mem-limit 3072
+ta_run_limit = 5.0
+run_obj = quality
+par_factor = 10
+test_inst_fn = smac3-output_2018-05-30_15:55:22_372009/run_1/test.txt
+overall_obj = PAR10
+algo_runs_timelimit = inf
+pcs_fn = smac3-output_2018-05-30_15:55:22_372009/run_1/params.pcs
+always_race_default = False
+cost_for_crash = 2147483647.0
+deterministic = False
+train_inst_fn = smac3-output_2018-05-30_15:55:22_372009/run_1/training.txt
