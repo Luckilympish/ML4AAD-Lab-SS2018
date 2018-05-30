@@ -28,8 +28,10 @@ def main():
             cost_default.append(z_)
         else:
             cost_incumbent.append(z_)
-    plt.plot([0,100],[0,100],'k',color="red")
-    plt.plot(cost_incumbent,cost_default,'ro', color="gray")
+    fig1 = plt.figure()
+    ax1 = fig1.add_subplot(111)
+    ax1.plot([0,100],[0,100],'k',color="red")
+    ax1.plot(cost_incumbent,cost_default,'ro', color="gray")
     plt.ylabel("Default Configuration")
     plt.xlabel("Incumbent of run 1")
     plt.title("Performance of Incumbents compared to Default Configuration")
