@@ -6,10 +6,7 @@ import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
-"""
-This file runs SMAC and then restores the run with an extended computation
-budget. This will also work for SMAC runs that have crashed and are continued.
-"""
+
 
 def main():
     scenario = Scenario("scenario.txt")
@@ -32,10 +29,12 @@ def main():
             cost_incumbent.append(z_)
     fig1 = plt.figure()
     ax1 = fig1.add_subplot(111)
-    ax1.plot([0,100],[0,100],'k',color="red")
     ax1.plot(cost_incumbent,cost_default,'ro', color="gray")
+    ax1.plot([0,100],[0,100],'k',color="red")
     plt.ylabel("Default Configuration")
     plt.xlabel("Incumbent of run 1")
+    plt.xlim(0,175)
+    plt.ylim(0,175)
     plt.title("Performance of Incumbents compared to Default Configuration")
     plt.savefig("perf_inc_vs_def.png")
 if "__main__" == __name__:
