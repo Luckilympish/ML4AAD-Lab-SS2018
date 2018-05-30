@@ -37,7 +37,7 @@ def main():
     plt.xlabel("Incumbent of run 1")
     plt.xlim(0,175)
     plt.ylim(0,175)
-    plt.axis('equal')
+    plt.gca().set_aspect('equal', adjustable='box')
     plt.title("Performance of Incumbents compared to Default Configuration")
     plt.savefig("perf_inc_vs_def.png")
 if "__main__" == __name__:
