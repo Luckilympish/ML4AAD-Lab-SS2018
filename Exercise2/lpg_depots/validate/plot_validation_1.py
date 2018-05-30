@@ -28,11 +28,11 @@ def main():
             cost_default.append(z_)
         else:
             cost_incumbent.append(z_)
-    plt.plot(cost_incumbent,cost_default,'ro')
+    plt.plot(cost_incumbent,cost_default,'ro', color="gray")
 
     x = numpy.linspace(0,max(max(cost_incumbent),max(cost_default)),0.1)
-    plt.plot(x,x,'k',color="red")
-    plt.ylabel("Default Confniguration")
+    #plt.plot(x,x,'k',color="red")
+    plt.ylabel("Default Configuration")
     plt.xlabel("Incumbent of run 1")
     plt.title("Performance of Incumbents compared to Default Configuration")
     
