@@ -39,7 +39,7 @@ def main():
     ax1.set_ylim([0,175])
     plt.gca().set_aspect('equal', adjustable='box')
     plt.title("Performance of Incumbents compared to Default Configuration")
-    plt.savefig("perf_inc_vs_def.png")
+    plt.savefig("inc_vs_def.png")
 if "__main__" == __name__:
     
     main()
