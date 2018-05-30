@@ -24,6 +24,8 @@ def main():
         config_id = entry.config_id  # look up config id
         config = runhistory.ids_config[config_id]  # look up config
         z_ = values.cost  # get cost
+        if z_ > 100:
+            z_ = 150
         if config_id == 1:
             cost_default.append(z_)
         else:
