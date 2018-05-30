@@ -1,0 +1,2 @@
+{"evaluations": 0, "wallclock_time": 0.00013113021850585938, "incumbent": ["activation=''relu''", "batch_size='10'", "epochs='10'", "kernel_initializer=''uniform''", "neurons='1'", "optimizer=''Adam''"], "total_cpu_time": null, "cpu_time": 0, "cost": 2147483648}
+{"evaluations": 1, "wallclock_time": 3.28684663772583, "incumbent": ["activation=''relu''", "batch_size='10'", "epochs='10'", "kernel_initializer=''uniform''", "neurons='1'", "optimizer=''Adam''"], "total_cpu_time": null, "cpu_time": 0.0114, "cost": 0.6422764227642277}

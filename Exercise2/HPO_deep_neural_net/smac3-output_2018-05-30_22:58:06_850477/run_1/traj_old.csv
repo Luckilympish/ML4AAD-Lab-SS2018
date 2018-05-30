@@ -1,0 +1,3 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
+0.000000, 2147483648.000000, 0.000131, 1, 0.000131, activation=''relu'', batch_size='10', epochs='10', kernel_initializer=''uniform'', neurons='1', optimizer=''Adam''
+0.011400, 0.642276, 3.286847, 1, 3.275447, activation=''relu'', batch_size='10', epochs='10', kernel_initializer=''uniform'', neurons='1', optimizer=''Adam''

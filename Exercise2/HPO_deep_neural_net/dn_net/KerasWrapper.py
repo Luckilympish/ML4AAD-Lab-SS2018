@@ -6,6 +6,7 @@ import numpy
 import keras
 import tensorflow
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 from abstractBlackBoxWrapper import AbstractBlackBoxWrapper
 
 class KerasWrapper(AbstractBlackBoxWrapper):
@@ -39,11 +40,12 @@ class KerasWrapper(AbstractBlackBoxWrapper):
         X_train, X_test, y_train, y_test = train_test_split(X,Y, test_size=0.2)
 	# create model
         model = keras.models.Sequential()
-        model.add(keras.layers.Dense(cfg["neurons"], input_dim=8, kernel_initializer=cfg["kernel_initializer"], activation=cfg["activation"]))
+        model.add(keras.layers.Dense(int(cfg["neurons"]), input_dim=8, kernel_initializer=cfg["kernel_initializer"], activation=cfg["activation"]))
+        print(dataset)
         model.add(keras.layers.Dense(1, activation='sigmoid'))
         # Compile model
         model.compile(loss='binary_crossentropy', optimizer=cfg["optimizer"], metrics=['accuracy'])
-        model.fit(X_train, y_train, batch_size=cfg["batch_size"], epochs=cfg["epochs"])
+        model.fit(X_train, y_train, batch_size=int(cfg["batch_size"]), epochs=int(cfg["epochs"]))
         y_pred = model.predict(X_test)
         y_pred = (y_pred > 0.5)
         return accuracy_score(y_test, y_pred)

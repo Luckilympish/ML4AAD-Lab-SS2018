@@ -1,0 +1,101 @@
+{
+  "config_origins": {
+    "1": "Default",
+    "2": "Random Search (sorted)"
+  },
+  "configs": {
+    "1": {
+      "neurons": 1,
+      "kernel_initializer": "uniform",
+      "batch_size": 10,
+      "optimizer": "Adam",
+      "epochs": 10,
+      "activation": "relu"
+    },
+    "2": {
+      "neurons": 1,
+      "kernel_initializer": "lecun_uniform",
+      "batch_size": 26,
+      "optimizer": "Adagrad",
+      "epochs": 54,
+      "activation": "hard_sigmoid"
+    }
+  },
+  "data": [
+    [
+      [
+        1,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        0.6422764227642277,
+        0.0116,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.6422764227642277,
+        0.0095,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.6422764227642277,
+        0.0102,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        0.6422764227642277,
+        0.0106,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance5.csv",
+        630311759
+      ],
+      [
+        0.6341463414634146,
+        0.0097,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ]
+  ]
+}
