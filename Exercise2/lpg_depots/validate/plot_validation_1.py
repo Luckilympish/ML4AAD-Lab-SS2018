@@ -35,7 +35,6 @@ def main():
     plt.ylabel("Default Configuration")
     plt.xlabel("Incumbent of run 1")
     plt.title("Performance of Incumbents compared to Default Configuration")
-    plt.axis('equal')
     plt.savefig("perf_inc_vs_def.png")
 if "__main__" == __name__:
     
