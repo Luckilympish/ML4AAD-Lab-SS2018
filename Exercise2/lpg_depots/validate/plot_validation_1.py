@@ -29,7 +29,7 @@ def main():
             cost_incumbent.append(z_)
     fig1 = plt.figure()
     ax1 = fig1.add_subplot(111)
-    ax1.plot(cost_incumbent,cost_default,'o', color="gray",markersize=0.5)
+    ax1.plot(cost_incumbent,cost_default,'o', color="black",markersize=0.8)
     ax1.plot([0,100],[0,100],'r-')
     ax1.plot([0,100],[100,100], linestyle='dashed', color="black")
     ax1.plot([100,100],[100,0],linestyle='dashed', color="black")
