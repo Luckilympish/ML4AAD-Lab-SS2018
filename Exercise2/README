@@ -1,0 +1,56 @@
+#Machine Learning For Automated Algorithm Design
+##Exercise 2
+Authors:
+- Gresa Shala
+- Youssef El Hassani
+- Jan Reisacher
+
+##Task 1:
+Run via jupyter notebook or colab
+
+##Task 2:
+Run via jupyter notebook or colab
+
+##Task 3:
+Plots for the performance comparison between the default configuration and each incumbent can be found at
+lpg_depots/validate1/plot_validation.png
+lpg_depots/validate2/plot_validation.png
+lpg_depots/validate3/plot_validation.png
+lpg_depots/validate4/plot_validation.png
+
+##Task 4:
+As our benchmark, we chose a simple convnet on the MNIST dataset using the Keras package.
+Keras is a user-friendly package for working with neural networks in Python. 
+Thus, our target algorithm is a python function, whose return value (accuracy of the model) will be optimized by SMAC.
+Since there already was an AbstractBlackBoxWrapper for python functions provided in the examples of GenericWrapper4AC, we made use of that script.
+
+The configuration space we chose for SMAC consists of:
+
+optimizer - the optimizer for the model
+opt_lr - the learning rate of the optimizer
+opt_momentum - the momentum of the optimizer (useful only for optimizer 'SGD')
+opt_decay - the decay (useful for all except for 'Nadam')
+opt_nesterov - useful only for 'SGD'
+opt_rho - useful for 'RMSprop' and 'Adadelta'
+opt_beta1 - useful for 'Adam', 'Adamax', 'Nadam'
+opt_beta2 - useful for 'Adam', 'Adamax', 'Nadam'
+batch_size
+epochs
+activation_1
+activation_2
+activation_3
+activation_4
+neurons_1
+neurons_2
+neurons_3
+dropout_1
+dropout_2
+
+The default values as well as the boundaries of the values of the configuration parameters can be found in HPO_deep_neural_net/dn_net/params.pcs
+
+As for the instance sets for the configuration, we decided to separate the 60000 training data images MNIST contains in 6 equal parts which will serve as individual training instances.
+The indexes of the boundaries for each of the instances are written in instances/train.instanceX.csv, where X is 1,...,6. The data is loaded in the code from the keras.datasets library and then split accordingly.
+
+The plots for the comparison of the performance of SMAC and ROAR can be found in HPO_deep_neural_nets/plot_SMAC_vs_ROAR.png
+
+
