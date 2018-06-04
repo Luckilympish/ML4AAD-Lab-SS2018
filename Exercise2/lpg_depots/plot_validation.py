@@ -15,16 +15,15 @@ def main():
     parser.add_argument('-o', '--output_file', dest='output', required=True)
     args = parser.parse_args()
 
-
     scenario = Scenario(args.scenario)
     # We load the runhistory, ...
     rh_path = os.path.join(args.runhistory)
     runhistory = RunHistory(aggregate_func=None)
     runhistory.load_json(rh_path, scenario.cs)
-    
+
     cost_default = []
     cost_incumbent = []
-    for entry,values in runhistory.data.items():  # iterate over data because it is an OrderedDict
+    for entry, values in runhistory.data.items():  # iterate over data because it is an OrderedDict
         config_id = entry.config_id  # look up config id
         config = runhistory.ids_config[config_id]  # look up config
         z_ = values.cost  # get cost
@@ -37,18 +36,18 @@ def main():
     fig1 = plt.figure()
     ax1 = fig1.add_subplot(111)
     ax1.plot(cost_incumbent, cost_default, linestyle='None', marker='o', color="black")
-    ax1.plot([0,100],[0,100],'r-')
-    ax1.plot([0,100],[100,100], linestyle='dashed', color="black")
-    ax1.plot([100,100],[100,0],linestyle='dashed', color="black")
+    ax1.plot([0, 100], [0, 100], 'r-')
+    ax1.plot([0, 100], [100, 100], linestyle='dashed', color="black")
+    ax1.plot([100, 100], [100, 0], linestyle='dashed', color="black")
     plt.ylabel("Default Configuration")
     plt.xlabel("Incumbent")
-    ax1.set_xlim([0,175])
-    ax1.set_ylim([0,175])
+    ax1.set_xlim([0, 175])
+    ax1.set_ylim([0, 175])
     plt.gca().set_aspect('equal', adjustable='box')
     plt.title("Performance of Incumbent compared to Default Configuration")
     plt.savefig(args.output)
 
 
 if "__main__" == __name__:
-    
     main()
+

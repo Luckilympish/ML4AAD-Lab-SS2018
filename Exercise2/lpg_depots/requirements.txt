@@ -10,3 +10,13 @@ liac-arff
 ConfigSpace
 
 # add your requirements below this line
+Cython
+pyrfr==0.8.0 --no-cache --user
+git+https://github.com/automl/SMAC3.git@development
+logging
+inspect
+
+#GenericWrapper4AC installed :
+#Clone repo https://github.com/mlindauer/GenericWrapper4AC
+#cd to repo location
+#python setup.py install
