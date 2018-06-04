@@ -1,6 +1,0 @@
-optimizer categorical {'SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam'} ['Adam']
-kernel_initializer categorical {'uniform', 'lecun_uniform', 'normal', 'zero', 'glorot_normal', 'glorot_uniform', 'he_normal', 'he_uniform'} ['uniform']
-batch_size integer [10, 100] [10]
-epochs integer [10, 100] [10]
-activation categorical {'softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'linear'} ['relu']
-neurons integer [1, 30] [1]

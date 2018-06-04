@@ -1,5 +1,0 @@
-instances/train/instance1.csv
-instances/train/instance2.csv
-instances/train/instance3.csv
-instances/train/instance4.csv
-instances/train/instance5.csv

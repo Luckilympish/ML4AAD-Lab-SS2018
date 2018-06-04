@@ -1,1 +1,0 @@
-{"incumbent": ["activation=''relu''", "batch_size='10.0'", "epochs='10.0'", "kernel_initializer=''uniform''", "neurons='1.0'", "optimizer=''Adam''"], "wallclock_time": 0.00014734268188476562, "cost": 2147483648, "cpu_time": 0, "evaluations": 0, "total_cpu_time": null}

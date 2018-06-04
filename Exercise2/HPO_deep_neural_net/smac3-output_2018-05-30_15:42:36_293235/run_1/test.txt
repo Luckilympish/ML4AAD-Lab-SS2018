@@ -1,5 +1,0 @@
-instances/test/instance1.csv
-instances/test/instance2.csv
-instances/test/instance3.csv
-instances/test/instance4.csv
-instances/test/instance5.csv
