@@ -66,9 +66,9 @@ def main():
     ax1.step(smac_med, 'k', where="post", label='SMAC', color='red')
     plt.fill_between(x, smac_25th, smac_75th, alpha=0.5, color='red', step='pre')
     #plot ROAR performance
-    ax1.plot(roar_med, 'o', color='blue')
-    ax1.step(roar_med, 'k', where="post", label='ROAR', color='blue')
-    plt.fill_between(x, roar_25th, roar_75th, alpha=0.5, color='blue', step='pre')
+    #ax1.plot(roar_med, 'o', color='blue')
+    #ax1.step(roar_med, 'k', where="post", label='ROAR', color='blue')
+    #plt.fill_between(x, roar_25th, roar_75th, alpha=0.5, color='blue', step='pre')
 
     plt.ylabel("Loss")
     plt.xlabel("#Evaluations")

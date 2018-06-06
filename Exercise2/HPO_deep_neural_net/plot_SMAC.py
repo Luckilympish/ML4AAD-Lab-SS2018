@@ -34,11 +34,12 @@ def main():
     fig1 = plt.figure()
     ax1 = fig1.add_subplot(111)
     x = range(len(cost_incumbent))
-    ax1.plot(x, cost_incumbent, linestyle='None', marker='o', color="black")
-    ax1.plot([0, len(x)], [cost_default, cost_default], 'r-')
+    ax1.plot(x, cost_incumbent, linestyle='None', marker='+', color="black", label='SMAC')
+    ax1.plot([0, len(x)], [cost_default, cost_default], 'r-',label='Default Configuration')
     plt.ylabel("Loss")
     plt.xlabel("SMAC")
-    plt.title("Performance of Incumbent compared to Default Configuration")
+    plt.title("Performance of Incumbents compared to Default Configuration")
+    plt.legend()
     plt.savefig(args.output)
 
 
