@@ -1,6 +1,6 @@
 # Machine Learning For Automated Algorithm Design
 ## Exercise 2
-## Authors:
+### Authors:
 - Gresa Shala
 - Youssef El Hassani
 - Jan Reisacher
@@ -26,7 +26,7 @@ The model of the convolutional network was taken from the examples which are pro
 https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.py
 
 Thus, our target algorithm is a python function, whose return value (1 - accuracy of the model) will be optimized by SMAC.
-Since there already was an AbstractBlackBoxWrapper for python functions provided in the examples of GenericWrapper4AC, we made use of that script.
+Since there already was an AbstractBlackBoxWrapper for python functions provided in the examples of GenericWrapper4AC, we made use of that script: https://github.com/mlindauer/GenericWrapper4AC/blob/master/examples/BlackBoxPython/abstractBlackBoxWrapper.py
 
 The configuration space we chose for SMAC consists of:
 
