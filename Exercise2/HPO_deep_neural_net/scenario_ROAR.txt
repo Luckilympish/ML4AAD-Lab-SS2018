@@ -1,0 +1,9 @@
+algo = python3 ./dn_net/KerasWrapper.py --mem-limit 3072 
+paramfile = ./dn_net/params.pcs
+execdir = .
+deterministic = 0
+run_obj = quality
+overall_obj = PAR10
+runcount_limit = 20
+wallclock_limit = 172800
+instance_file = training.txt

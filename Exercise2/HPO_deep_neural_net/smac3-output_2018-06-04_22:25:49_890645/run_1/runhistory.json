@@ -1,0 +1,41 @@
+{
+  "configs": {
+    "1": {
+      "activation_2": "relu",
+      "activation_4": "softmax",
+      "opt_decay": 0.0,
+      "neurons_2": 64,
+      "batch_size": 128,
+      "neurons_3": 128,
+      "epochs": 12,
+      "activation_1": "relu",
+      "opt_lr": 1.0,
+      "dropout_1": 0.25,
+      "activation_3": "relu",
+      "opt_rho": 0.95,
+      "neurons_1": 32,
+      "dropout_2": 0.5,
+      "optimizer": "Adadelta"
+    }
+  },
+  "data": [
+    [
+      [
+        1,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        2147483647.0,
+        1234567890.0,
+        {
+          "__enum__": "StatusType.CRASHED"
+        },
+        {}
+      ]
+    ]
+  ],
+  "config_origins": {
+    "1": "Default"
+  }
+}

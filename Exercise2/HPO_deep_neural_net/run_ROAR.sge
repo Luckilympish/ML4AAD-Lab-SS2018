@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# BASH Shell
+#$ -S /bin/bash
+# Output files (stdout and stderr)
+#$ -o /home/shalag/ML4AAD-Lab-SS2018/Exercise2/HPO_deep_neural_net/task_ROAR.stdout -e /home/shalag/ML4AAD-Lab-SS2018/Exercise2/HPO_deep_neural_net/task_ROAR.stderr
+# Execute  the  job  from  the  current  working  directory
+#$ -cwd
+# send no mail for events (e.g., start or end of job)
+#$ -m n
+# Array Job with 4 subjobs
+##$ -t 1-4
+
+python3 ../../../.local/bin/smac --scenario scenario_ROAR.txt --verbose DEBUG --mode ROAR
+
+

@@ -1,0 +1,472 @@
+{
+  "data": [
+    [
+      [
+        1,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        0.6335999999999999,
+        0.0152,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.776,
+        0.0147,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        0.902,
+        0.018,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance2.csv",
+        630311759
+      ],
+      [
+        0.7884,
+        0.0138,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        3,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.902,
+        0.0159,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance5.csv",
+        799981516
+      ],
+      [
+        0.8865,
+        0.0159,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        4,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.902,
+        0.0154,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance4.csv",
+        166716594
+      ],
+      [
+        0.8865,
+        0.0139,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "instances/train/instance1.csv",
+        491263
+      ],
+      [
+        0.8968,
+        0.0173,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance6.csv",
+        986026652
+      ],
+      [
+        0.8303,
+        0.0151,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        6,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.902,
+        0.0155,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance5.csv",
+        602957303
+      ],
+      [
+        0.8865,
+        0.0163,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        7,
+        "instances/train/instance5.csv",
+        799981516
+      ],
+      [
+        0.902,
+        0.0165,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance4.csv",
+        77964601
+      ],
+      [
+        0.8865,
+        0.0149,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        8,
+        "instances/train/instance3.csv",
+        550290313
+      ],
+      [
+        0.902,
+        0.0143,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance3.csv",
+        729416111
+      ],
+      [
+        0.776,
+        0.0149,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        9,
+        "instances/train/instance4.csv",
+        77964601
+      ],
+      [
+        0.8865,
+        0.0165,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        9,
+        "instances/train/instance6.csv",
+        986026652
+      ],
+      [
+        0.8972,
+        0.0141,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        9,
+        "instances/train/instance4.csv",
+        166716594
+      ],
+      [
+        0.8865,
+        0.0162,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "instances/train/instance1.csv",
+        146764659
+      ],
+      [
+        0.6335999999999999,
+        0.0154,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ]
+  ],
+  "configs": {
+    "1": {
+      "neurons_3": 128,
+      "opt_decay": 0.0,
+      "activation_3": "relu",
+      "neurons_1": 32,
+      "opt_rho": 0.95,
+      "optimizer": "Adadelta",
+      "opt_lr": 1.0,
+      "dropout_2": 0.5,
+      "activation_2": "relu",
+      "batch_size": 128,
+      "activation_4": "softmax",
+      "epochs": 12,
+      "dropout_1": 0.25,
+      "neurons_2": 64,
+      "activation_1": "relu"
+    },
+    "2": {
+      "neurons_3": 115,
+      "activation_3": "relu",
+      "neurons_1": 83,
+      "optimizer": "Nadam",
+      "opt_lr": 1.4498764173764076,
+      "dropout_2": 0.5935401984055398,
+      "activation_2": "hard_sigmoid",
+      "batch_size": 782,
+      "activation_4": "tanh",
+      "epochs": 24,
+      "dropout_1": 0.6580747810523803,
+      "neurons_2": 85,
+      "opt_beta2": 0.8724219032023125,
+      "opt_beta1": 0.03682875324214369,
+      "activation_1": "linear"
+    },
+    "3": {
+      "neurons_3": 100,
+      "opt_decay": 0.3396654816878053,
+      "activation_3": "softplus",
+      "neurons_1": 50,
+      "optimizer": "Adamax",
+      "opt_lr": 0.5700064167609195,
+      "dropout_2": 0.2552768006800208,
+      "activation_2": "hard_sigmoid",
+      "batch_size": 791,
+      "activation_4": "sigmoid",
+      "epochs": 9,
+      "dropout_1": 0.9761114935549554,
+      "neurons_2": 6,
+      "opt_beta2": 0.770594839213214,
+      "opt_beta1": 0.284083678883385,
+      "activation_1": "tanh"
+    },
+    "4": {
+      "neurons_3": 83,
+      "opt_decay": 2.3354876203260915,
+      "activation_3": "softplus",
+      "neurons_1": 99,
+      "opt_rho": 0.8534753984670165,
+      "optimizer": "RMSprop",
+      "opt_lr": 2.495477701211226,
+      "dropout_2": 0.7603951601009976,
+      "activation_2": "softsign",
+      "batch_size": 424,
+      "activation_4": "tanh",
+      "epochs": 20,
+      "dropout_1": 0.7012489025560967,
+      "neurons_2": 40,
+      "activation_1": "linear"
+    },
+    "5": {
+      "neurons_3": 76,
+      "opt_decay": 1.4410108427736272,
+      "activation_3": "softmax",
+      "neurons_1": 145,
+      "opt_rho": 0.33840972736046115,
+      "optimizer": "Adadelta",
+      "opt_lr": 1.1002299209306954,
+      "dropout_2": 0.5432886600820361,
+      "activation_2": "softsign",
+      "batch_size": 961,
+      "activation_4": "sigmoid",
+      "epochs": 5,
+      "dropout_1": 0.5201992329597117,
+      "neurons_2": 29,
+      "activation_1": "linear"
+    },
+    "6": {
+      "neurons_3": 112,
+      "opt_decay": 2.405455901308955,
+      "activation_3": "softplus",
+      "neurons_1": 120,
+      "optimizer": "SGD",
+      "opt_lr": 1.0634076519698525,
+      "dropout_2": 0.05465998797306815,
+      "activation_2": "hard_sigmoid",
+      "batch_size": 431,
+      "opt_momentum": 0.44119169956384563,
+      "activation_4": "tanh",
+      "epochs": 17,
+      "dropout_1": 0.194564240372868,
+      "opt_nesterov": "false",
+      "neurons_2": 115,
+      "activation_1": "softplus"
+    },
+    "7": {
+      "neurons_3": 59,
+      "opt_decay": 1.5108652877336648,
+      "activation_3": "hard_sigmoid",
+      "neurons_1": 39,
+      "opt_rho": 2.590674247140921,
+      "optimizer": "Adadelta",
+      "opt_lr": 2.8723456886315084,
+      "dropout_2": 0.2615229434010775,
+      "activation_2": "relu",
+      "batch_size": 814,
+      "activation_4": "softsign",
+      "epochs": 4,
+      "dropout_1": 0.5888853044505483,
+      "neurons_2": 70,
+      "activation_1": "hard_sigmoid"
+    },
+    "8": {
+      "neurons_3": 60,
+      "opt_decay": 0.85841188569162,
+      "activation_3": "softplus",
+      "neurons_1": 105,
+      "optimizer": "Adagrad",
+      "opt_lr": 2.175511524577248,
+      "dropout_2": 0.038249569210466405,
+      "activation_2": "relu",
+      "batch_size": 94,
+      "activation_4": "tanh",
+      "epochs": 17,
+      "dropout_1": 0.033951250186982085,
+      "neurons_2": 6,
+      "activation_1": "tanh"
+    },
+    "9": {
+      "neurons_3": 97,
+      "opt_decay": 2.3324757589122096,
+      "activation_3": "hard_sigmoid",
+      "neurons_1": 34,
+      "optimizer": "Adamax",
+      "opt_lr": 2.2728760433980493,
+      "dropout_2": 0.5470327012462193,
+      "activation_2": "hard_sigmoid",
+      "batch_size": 85,
+      "activation_4": "softplus",
+      "epochs": 14,
+      "dropout_1": 0.9377119338342287,
+      "neurons_2": 115,
+      "opt_beta2": 0.2917272794013656,
+      "opt_beta1": 0.6128807990482547,
+      "activation_1": "linear"
+    }
+  },
+  "config_origins": {
+    "1": "Default",
+    "2": "Random Search",
+    "3": "Random Search",
+    "4": "Random Search",
+    "5": "Random Search",
+    "6": "Random Search",
+    "7": "Random Search",
+    "8": "Random Search",
+    "9": "Random Search"
+  }
+}

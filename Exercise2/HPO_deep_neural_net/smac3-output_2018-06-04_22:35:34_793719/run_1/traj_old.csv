@@ -1,0 +1,2 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
+0.000000, 2147483648.000000, 0.000313, 1, 0.000313, activation_1=''relu'', activation_2=''relu'', activation_3=''relu'', activation_4=''softmax'', batch_size='128', dropout_1='0.25', dropout_2='0.5', epochs='12', neurons_1='32', neurons_2='64', neurons_3='128', opt_lr='1.0', optimizer=''Adadelta'', opt_decay='0.0', opt_rho='0.95'

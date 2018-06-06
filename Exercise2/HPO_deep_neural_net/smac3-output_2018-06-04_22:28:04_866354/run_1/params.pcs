@@ -1,0 +1,28 @@
+optimizer categorical {'SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam'}['Adadelta']
+opt_lr real [0, 3][1]
+opt_momentum real [0, 3][0]
+opt_decay real [0, 3][0]
+opt_nesterov categorical {'true', 'false'}['false']
+opt_rho real [0, 3][0.95]
+opt_beta1 real [0.001, 0.999][0.9]
+opt_beta2 real [0.001, 0.999][0.999]
+batch_size integer [10, 1000][128]
+epochs integer [1, 30][12]
+activation_1 categorical {'softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'linear'} ['relu']
+activation_2 categorical {'softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'linear'}['relu']
+activation_3 categorical {'softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'linear'}['relu']
+activation_4 categorical {'softmax', 'softplus', 'softsign', 'relu', 'tanh', 'sigmoid', 'hard_sigmoid', 'linear'}['softmax']
+neurons_1 integer [1, 150][32]
+neurons_2 integer [1, 150][64]
+neurons_3 integer [1,150][128]
+dropout_1 real [0,1] [0.25]
+dropout_2 real [0,1] [0.5]
+
+
+Conditionals:
+opt_momentum|optimizer == 'SGD'
+opt_decay|optimizer != 'Nadam'
+opt_nesterov|optimizer == 'SGD'
+opt_rho|optimizer in {'RMSprop', 'Adadelta'}
+opt_beta1|optimizer in {'Adam', 'Adamax', 'Nadam'}
+opt_beta2|optimizer in {'Adam', 'Adamax', 'Nadam'}
