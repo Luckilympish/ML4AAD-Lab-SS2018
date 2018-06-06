@@ -1,6 +1,6 @@
 # Machine Learning For Automated Algorithm Design
 ## Exercise 2
-### Authors:
+#### Authors:
 - Gresa Shala
 - Youssef El Hassani
 - Jan Reisacher
