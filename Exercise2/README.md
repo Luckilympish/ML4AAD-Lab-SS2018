@@ -30,25 +30,25 @@ Since there already was an AbstractBlackBoxWrapper for python functions provided
 
 The configuration space we chose for SMAC consists of:
 
-* optimizer - the optimizer for the model
-* opt_lr - the learning rate of the optimizer
-* opt_momentum - the momentum of the optimizer (useful only for optimizer 'SGD')
-* opt_decay - the decay (useful for all except for 'Nadam')
-* opt_nesterov - useful only for 'SGD'
-* opt_rho - useful for 'RMSprop' and 'Adadelta'
-* opt_beta1 - useful for 'Adam', 'Adamax', 'Nadam'
-* opt_beta2 - useful for 'Adam', 'Adamax', 'Nadam'
-* batch_size - batch size of the input
-* epochs - number of epochs of training
-* activation_1 - activation function to be applied to input of layer 1.
-* activation_2 - activation function to be applied to input of layer 2.
-* activation_3 - activation function to be applied to input of layer 3.
-* activation_4 - activation function to be applied to input of layer 4.
-* neurons_1 - number of neurons in the first layer of the model
-* neurons_2 - number of neurons in the second layer of the model
-* neurons_3 - number of neurons in the third layer of the model
-* dropout_1 - dropout of the input
-* dropout_2 - dropout of the input
+* optimizer - *the optimizer for the model*
+* opt_lr - *the learning rate of the optimizer*
+* opt_momentum - *the momentum of the optimizer (useful only for optimizer 'SGD')*
+* opt_decay - *the decay (useful for all except for 'Nadam')*
+* opt_nesterov - *useful only for 'SGD'*
+* opt_rho - *useful for 'RMSprop' and 'Adadelta'*
+* opt_beta1 - *useful for 'Adam', 'Adamax', 'Nadam'*
+* opt_beta2 - *useful for 'Adam', 'Adamax', 'Nadam'*
+* batch_size - *batch size of the input*
+* epochs - *number of epochs of training*
+* activation_1 - *activation function to be applied to input of layer 1*
+* activation_2 - *activation function to be applied to input of layer 2*
+* activation_3 - *activation function to be applied to input of layer 3*
+* activation_4 - *activation function to be applied to input of layer 4*
+* neurons_1 - *number of neurons in the first layer of the model*
+* neurons_2 - *number of neurons in the second layer of the model*
+* neurons_3 - *number of neurons in the third layer of the model*
+* dropout_1 - *dropout of the input*
+* dropout_2 - *dropout of the input*
 
 The default values as well as the boundaries of the values of the configuration parameters can be found in 
 *HPO_deep_neural_net/dn_net/params.pcs*
