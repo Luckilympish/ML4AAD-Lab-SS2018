@@ -73,6 +73,7 @@ def main():
     plt.ylabel("Loss")
     plt.xlabel("#Evaluations")
     plt.title("Performance of SMAC compared to ROAR")
+    plt.legend()
     plt.savefig(args.output)
 
 
