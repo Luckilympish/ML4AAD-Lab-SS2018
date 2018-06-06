@@ -62,4 +62,5 @@ The plot for the comparison of the performance of SMAC's incumbents to the defau
 
 The plot for the comparison of the performance of SMAC and ROAR can be found in 
 *HPO_deep_neural_nets/plot_SMAC_vs_ROAR.png*
+
 We plotted the cost of the first 20 runs of SMAC, since we only ran ROAR on our benchmark for 20 runs. The configurations are represented as points, since the median of the cost accross the first 20 SMAC runs was the same as the median of ROAR, as can also be seen by the many overlapping configurations that SMAC and ROAR have. Thus, plotting the median did not yield a very informative visualization, which is why we only plotted the configurations as points.
